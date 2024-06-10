@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.react-flow__node {
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  padding: 10px;
+  background: #fff;
+  font-size: 12px;
+  text-align: center;
+}
+
+.react-flow__edge-path {
+  stroke: #888;
+  stroke-width: 2;
+}
+
